@@ -47,8 +47,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
-    padding: 10px;
-    border-radius: 15px;
+    padding: 12px;
+    border-radius: 17px;
     backdrop-filter: blur(7px);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px 0px;
 }
