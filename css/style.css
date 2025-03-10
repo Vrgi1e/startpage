@@ -20,7 +20,7 @@ html {
     align-items: center;
     justify-content: center;
     height: 100svh;
-    background-color: #282828;
+    background-color: var(--background-color);
     opacity: 1;
     overflow-x: clip;
 }
@@ -50,7 +50,7 @@ body {
     padding: 12px;
     border-radius: 17px;
     backdrop-filter: blur(7px);
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px 0px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 15px 0px;
 }
 
 #image {
@@ -89,7 +89,7 @@ body {
     transform: scale(var(--scale), 1);
     content: var(--great);
     color: var(--accent-color-2);
-    font-size: 2.5em;
+    font-size: var(--font-size);
     font-weight: 900;
     grid-column: 1 / -1;
     text-align: center;
@@ -109,7 +109,10 @@ body {
 #links {
     display: grid;
     row-gap: 0.5em;
-    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em ;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, 1fr);
+    
 }
 
 .header {

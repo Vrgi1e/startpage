@@ -1,30 +1,10 @@
 let currentIndex = localStorage.getItem("currentIndex") || document.currentScript.getAttribute('currentIndex');
 currentIndex = parseInt(currentIndex);
 
-const images = ["cover1.webp", "cover2.webp", "cover3.jpg","cover4.jpg"];
+const images = ["cover1.jpg", "cover2.jpg"];
 const colorSets = [
 	{
-		"--text-color": "#c0caf5",
-		"--hover-color": "#bb9af7",
-		"--accent-color": "#7aa2f7",
-		"--accent-color-2": "#f7768e",
-		"--background-color": "#1a1b26D3",
-		"--great": "Welcome back",
-		"--font": "SpaceMono Nerd Font",
-		"--scale": 1,
-	},
-	{
-		"--text-color": "#9fadc6",
-		"--hover-color": "#9B5856",
-		"--accent-color": "#28725A",
-		"--accent-color-2": "#D2C7CB",
-		"--background-color": "#15191dD3",
-		"--great": "Welcome back",
-		"--font": "SpaceMono Nerd Font",
-		"--scale": 1,
-	},
-	{
-		"--text-color": "#076678",
+		"--text-color": "#458588",
 		"--hover-color": "#98971a",
 		"--accent-color": "#d79921",
 		"--accent-color-2": "#cc241d",
@@ -32,6 +12,7 @@ const colorSets = [
 		"--great": "You are (not) welcome",
 		"--font": "EVA-Matisse_Standard",
 		"--scale": 0.7,
+		"--font-size": "3.5em"
 	},
 	{
 		"--text-color": "#8E917E",
@@ -42,7 +23,8 @@ const colorSets = [
 		"--great": "Welcome back",
 		"--font": "SpaceMono Nerd Font",
 		"--scale": 1,
-	},
+		"--font-size": "3em"
+	}
 ];
 
 function preloadImages() {
