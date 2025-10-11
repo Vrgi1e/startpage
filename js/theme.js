@@ -10,7 +10,7 @@ const colorSets = [
 		"--accent-color-2": "#cc241d",
 		"--background-color": "#1d2021C8",
 		"--great": "You are (not) welcome",
-		"--font": "EVA-Matisse_Standard",
+		"--font": "EVA-Matisse",
 		"--scale": 0.7,
 		"--font-size": "3.5em"
 	},

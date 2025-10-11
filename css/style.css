@@ -6,6 +6,11 @@
         url(../fonts/SpaceMonoNF.woff2) format("woff2"),
         url(../fonts/SpaceMonoNF.woff) format("woff");
 }
+@font-face {
+    font-family: "EVA-Matisse";
+    font-display: swap;
+    src: url(../fonts/EVA-Matisse_Classic.ttf) format("truetype");
+}
 
 :root {
     color-scheme: dark;
